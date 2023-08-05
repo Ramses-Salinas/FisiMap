@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activities.SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/general_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_marginTop="@dimen/_36sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión"
+            android:textSize="@dimen/_36sdp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="¿Aún no tienes cuenta?"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/primary_text"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/button_color"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openRegistration" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_41sdp"
+            android:background="@color/white"
+            android:hint="Correo"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/hint_text"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_41sdp"
+            android:background="@color/white"
+            android:hint="Contraseña"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/hint_text"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"
+            android:inputType="textPassword" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="@dimen/_72sdp"
+            android:layout_width="@dimen/_229sdp"
+            android:layout_height="@dimen/_69sdp"
+            android:text="Ingresar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:backgroundTint="@color/button_color"
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continuar como invitado"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/button_color"
+            android:textStyle="bold"
+            android:id="@+id/btnGuestLogin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="guestLogin" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

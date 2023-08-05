@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/general_background"
+        android:padding="16dp"
+        tools:ignore="MissingClass">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_logout"
+                android:layout_marginLeft="@dimen/_200sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cerrar Sesión"
+                android:backgroundTint="@color/primary_text"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_floor_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_weight="1"
+                android:text="Piso 1"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/button_color"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_floor_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_weight="1"
+                android:text="Piso 2"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/button_color"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_floor_3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Piso 3"
+                android:backgroundTint="@color/button_color"/>
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" >
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+
+            <org.rajawali3d.view.SurfaceView
+                android:id="@+id/rajawali_surface"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_400sdp"
+                android:background="@android:color/transparent" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_rotate_x"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+                android:backgroundTint="@color/map_background"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_rotate_z"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+                android:backgroundTint="@color/map_background"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
