@@ -1,0 +1,83 @@
+[
+    {
+        "id":0,
+        "zona": "Tercio Estudiantil",
+        "posicion": {
+            "x":8.789,
+            "y":4.000,
+            "z":23.812
+        }
+    },
+    {
+        "id":1,
+        "zona": "Aulas con código 200_1",
+        "posicion": {
+            "x":15.789,
+            "y":4.000,
+            "z":23.812
+        }
+    },
+    {
+        "id":2,
+        "zona": "Aula Magna",
+        "posicion": {
+            "x":18.789,
+            "y":4.000,
+            "z":23.812
+        }
+    },
+    {
+        "id":3,
+        "zona": "Decanato",
+        "posicion": {
+            "x":-13.789,
+            "y":4.000,
+            "z":31.081
+        }
+    },
+    {
+        "id":4,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":8.789,
+            "y":4.000,
+            "z":24.812
+        }
+    },
+    {
+        "id":5,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":15.789,
+            "y":4.000,
+            "z":24.812
+        }
+    },
+    {
+        "id":6,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":18.789,
+            "y":4.000,
+            "z":24.812
+        }
+    },
+    {
+        "id":7,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-11.789,
+            "y":4.000,
+            "z":24.812
+        }
+    },
+    {
+        "id":8,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-11.789,
+            "y":4.000,
+            "z":31.081
+        }
+    }
+]

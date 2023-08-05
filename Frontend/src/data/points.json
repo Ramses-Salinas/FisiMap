@@ -1,0 +1,219 @@
+[
+    {
+        "id":0,
+        "zona": "Entrada",
+        "posicion": {
+            "x":-34.789,
+            "y":4.000,
+            "z":53.812
+        }
+    },
+    {
+        "id":1,
+        "zona": "Módulo de atención",
+        "posicion": {
+            "x":-30.189,
+            "y":4.000,
+            "z":52.187
+        }
+    },
+    {
+        "id":2,
+        "zona": "Economia",
+        "posicion": {
+            "x":-37.861,
+            "y":4.000,
+            "z":47.398
+        }
+    },
+    {
+        "id":3,
+        "zona": "Cerseu",
+        "posicion": {
+            "x":-33.146,
+            "y":4.000,
+            "z":45.447
+        }
+    },
+    {
+        "id":4,
+        "zona": "DGA",
+        "posicion": {
+            "x":-35.992,
+            "y":4.000,
+            "z":45.630
+        }
+    },
+    {
+        "id":5,
+        "zona": "Dirección Escuela de CC",
+        "posicion": {
+            "x":-25.517,
+            "y":4.000,
+            "z":37.981
+        }
+    },
+    {
+        "id":6,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-34.046,
+            "y":4.000,
+            "z":50.755
+        }
+    },
+    {
+        "id":7,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-35.992,
+            "y":4.000,
+            "z":47.586
+        }
+    },
+    {
+        "id":8,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-33.499,
+            "y":4.000,
+            "z":48.827
+        }
+    },
+    {
+        "id":9,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-19,
+            "y":4.000,
+            "z":48.827
+        }
+    },
+    {
+        "id":10,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-19,
+            "y":4.000,
+            "z":37.981
+        }
+    },
+    {
+        "id":11,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-16.474,
+            "y":4.000,
+            "z":36
+        }
+    },
+    {
+        "id":12,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-19,
+            "y":4.000,
+            "z":31.863
+        }
+    },
+    {
+        "id":13,
+        "zona": "USGOM",
+        "posicion": {
+            "x":-25.530,
+            "y":4.000,
+            "z":31.863
+        }
+    },
+    {
+        "id":14,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-20,
+            "y":4,
+            "z":22.863
+        }
+    },
+    {
+        "id":15,
+        "zona": "SSHH Varones",
+        "posicion": {
+            "x":-25,
+            "y":4,
+            "z":22.863
+        }
+    },
+    {
+        "id":16,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-15,
+            "y":4.000,
+            "z":21.563
+        }
+    },
+    {
+        "id":17,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":9,
+            "y":4.000,
+            "z":21.563
+        }
+    },
+    {
+        "id":18,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":9,
+            "y":4.000,
+            "z":18.563
+        }
+    },
+    {
+        "id":19,
+        "zona": "Loza Deportiva",
+        "posicion": {
+            "x":16,
+            "y":4.000,
+            "z":18.563
+        }
+    },
+    {
+        "id":20,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-20,
+            "y":4,
+            "z":17.563
+        }
+    },
+    {
+        "id":21,
+        "zona": "SSHH Mujeres",
+        "posicion": {
+            "x":-25,
+            "y":4,
+            "z":17.563
+        }
+    },
+    {
+        "id":22,
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-20,
+            "y":4,
+            "z":9.563
+        }
+    },
+    {
+        "id":23,
+        "zona": "Auditorio",
+        "posicion": {
+            "x":-24,
+            "y":4,
+            "z":9.563
+        }
+    }
+
+]

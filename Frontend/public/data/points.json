@@ -1,0 +1,114 @@
+[
+    {
+        "zona": "Entrada",
+        "posicion": {
+            "x":-33.800,
+            "y":1.000,
+            "z":43.325
+        }
+    },
+    {
+        "zona": "Módulo de atención",
+        "posicion": {
+            "x":-30.189,
+            "y":1.000,
+            "z":41.187
+        }
+    },
+    {
+        "zona": "Economia",
+        "posicion": {
+            "x":-37.361,
+            "y":1.000,
+            "z":37.398
+        }
+    },
+    {
+        "zona": "DGA",
+        "posicion": {
+            "x":-36.146,
+            "y":1.000,
+            "z":35.447
+        }
+    },
+    {
+        "zona": "Cerseu",
+        "posicion": {
+            "x":-33.251,
+            "y":1.000,
+            "z":35.630
+        }
+    },
+    {
+        "zona": "Dirección Escuela de CC",
+        "posicion": {
+            "x":-25.517,
+            "y":1.000,
+            "z":27.383
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-34.046,
+            "y":1.000,
+            "z":41.755
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-35.992,
+            "y":1.000,
+            "z":37.386
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-33.499,
+            "y":1.000,
+            "z":37.327
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-30.808,
+            "y":1.000,
+            "z":37.963
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-21.929,
+            "y":1.000,
+            "z":36.981
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-21.474,
+            "y":1.000,
+            "z":27.607
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-17.208,
+            "y":1.000,
+            "z":25.863
+        }
+    },
+    {
+        "zona": "Pasillo",
+        "posicion": {
+            "x":-21.530,
+            "y":1.000,
+            "z":22.237
+        }
+    }
+]
